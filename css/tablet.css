@@ -1,0 +1,55 @@
+@media screen and (max-width: 991px) {
+    /* Navbar */
+    #nav-bar .nav-bar-heading{
+        display: none;
+    }
+
+    #nav-bar .nav-bar-heading + *{
+        border-left-width: 1px;
+    }
+    /* Navbar */
+    /* about */
+    #about {
+        background: none;
+    }
+    #about .container{
+        grid-template-columns: 1fr;
+    }
+
+    #about #target{
+        background-color: #f7f7f7;
+    }
+
+    #about #personal-info{
+        background-color: #f0f0f0;
+    }
+
+    #target,#personal-info{
+        padding: 40px 30px;
+    }
+    /* about */
+}
+
+@media screen and (max-width: 1199px) {
+    /* certificate */
+    .certificates{
+        grid-template-columns: 1fr;
+    }
+
+    .certificate-item{
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 15px;
+        border-bottom: 1px solid #d6c08d;
+        padding-bottom: 15px;
+    }
+
+    .certificate-item + .certificate-item::before{
+        display: none;
+    }
+
+    .certificate-separator{
+        display: none;
+    }
+    /* certificate */
+}

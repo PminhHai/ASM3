@@ -282,10 +282,14 @@ a:active {
 }
 
 .experience-helper {
-    position: absolute;
+    /* position: absolute; */
     bottom: 20px;
     transition: 0.3s ease-in-out 0s;
     opacity: 0;
+}
+
+.experience-item:hover .experience-helper {
+    opacity: 1;
 }
 
 .experience-helper .btn {
@@ -293,21 +297,9 @@ a:active {
     padding: 5px 20px;
 }
 
-.experience-helper .btn::after {
-    content: 'View Less';
-}
-
 .experience-helper .btn .bi {
     transform: rotate(180deg);
     display: inline-block;
-}
-
-.experience-content.d-none ~ .experience-helper .btn .bi {
-    transform: rotate(0);
-}
-
-.experience-content.d-none ~ .experience-helper .btn::after {
-    content: 'View More';
 }
 
 .hobbies {
