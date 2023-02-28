@@ -60,6 +60,11 @@
         flex-direction: column;
         width: 100%;
     }
+    #project-charter .charter-content .charter-item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
     /* Project Charter */
 
     /* Footer */
