@@ -46,6 +46,22 @@
       }
     /* Project */
 
+    /* Project Charter */
+    #project-charter .container {
+        width: 100%;
+    }
+    #project-charter .grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #project-charter .charter-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    /* Project Charter */
+
     /* Footer */
     .socials ul{
         gap: 15px;

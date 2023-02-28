@@ -28,6 +28,17 @@
         padding: 40px 30px;
     }
     /* about */
+
+    /* Project charter */
+    #project-charter .container {
+        width: 100%;
+    }
+    #project-charter .grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    /* Project charter */
 }
 
 @media screen and (max-width: 1199px) {

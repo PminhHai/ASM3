@@ -480,3 +480,64 @@ a:active {
 #footer .socials {
     justify-content: center;
 }
+
+/* Project Charter */
+#project-charter .container{
+    padding: 0;
+    margin-top: 40px;
+    width: 100%;
+}
+
+#project-charter .grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 10px;
+    background-color: #199cdb;
+    border: 10px solid #199cdb;
+}
+
+#project-charter .charter-section{
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+#project-charter .charter-title {
+    margin: 10px;
+    color: #199cdb;
+    font-weight: bold;
+}
+
+#project-charter .charter-content{
+    margin: 10px 5px 0 5px;
+}
+
+.scopes-section .text-title{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+  
+#project-charter .charter-text {
+    margin-left: 10px;
+}
+
+#project-charter .timeline-section {
+    grid-column: 3 /4;
+    grid-row: 1 / -1;
+}
+
+#project-charter .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #199cdb;
+    color: white;
+}
+
+#project-charter i {
+    align-self: center;
+    margin: 10px;
+}
