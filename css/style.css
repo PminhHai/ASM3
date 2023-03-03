@@ -77,22 +77,6 @@ a:active {
     font-size: 0.875rem;
 }
 
-.fz-md {
-    font-size: 1rem;
-}
-
-.fz-lg {
-    font-size: 1.2rem;
-}
-
-.fz-xl {
-    font-size: 1.5rem;
-}
-
-.fz-xxl {
-    font-size: 2rem;
-}
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -282,7 +266,6 @@ a:active {
 }
 
 .experience-helper {
-    /* position: absolute; */
     bottom: 20px;
     transition: 0.3s ease-in-out 0s;
     opacity: 0;
@@ -295,11 +278,6 @@ a:active {
 .experience-helper .btn {
     border-radius: 30px;
     padding: 5px 20px;
-}
-
-.experience-helper .btn .bi {
-    transform: rotate(180deg);
-    display: inline-block;
 }
 
 .hobbies {
